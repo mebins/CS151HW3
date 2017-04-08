@@ -1,0 +1,2 @@
+5.10. Although the panel looks like it is using the decoration pattern, the panel holds responsibility by having the .setBorder function.
+And therefore there is no pattern at work here.
