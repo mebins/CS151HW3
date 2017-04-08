@@ -15,6 +15,10 @@ import javax.swing.event.ChangeListener;
 public class TextFrame extends JFrame implements ChangeListener
 {
    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+/**
       Constructs a JFrame that contains the textfields containing the data
       in the model.
       @param d the model to display

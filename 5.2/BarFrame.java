@@ -21,6 +21,10 @@ import javax.swing.event.ChangeListener;
 public class BarFrame extends JFrame implements ChangeListener, MouseListener
 {
    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+/**
       Constructs a BarFrame object
       @param dataModel the data that is displayed in the barchart
    */

@@ -1,5 +1,3 @@
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
 import java.util.ArrayList;
 
 import javax.swing.event.ChangeEvent;
@@ -24,7 +22,8 @@ public class DataModel
       Constructs a DataModel object
       @return the data in an ArrayList
    */
-   public ArrayList<Double> getData()
+@SuppressWarnings("unchecked")
+public ArrayList<Double> getData()
    {
       return (ArrayList<Double>) (data.clone());
    }
